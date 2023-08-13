@@ -1,7 +1,9 @@
 export class Categoria {
-    nombre : string[];
+    nombre : string;
 
-    constructor () {
-        this.nombre = [];
+    
+    constructor (nombre: string) {
+        this.nombre = nombre;
     }
+
 }
